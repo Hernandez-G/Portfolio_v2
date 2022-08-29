@@ -30,7 +30,7 @@ const About = () => {
             My field of Interest's are building new web technologies and products and also in areas related to deep learning and natural language processing.
             Whenever possible, I also apply my passion for developing products with Node.js and Modern Javascript Library and Frameworks.
           </p>
-          <p align="LEFT">
+          <p>
             Apart from coding, some other activities that I love to do! 
             <br />
             <br />

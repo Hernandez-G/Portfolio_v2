@@ -29,11 +29,12 @@ const Home = () => {
             <span className={letterClass}>h</span>
             <span className={letterClass}>e</span>
             <span className={letterClass}>r</span>
-            <span className={letterClass}>e</span>
+            <span className={letterClass}>e,</span>
             &nbsp;
             <img className='wave-hand' src={Wave} alt="Wave" />
             &nbsp;
-            <span className={letterClass}>i</span>
+            <br></br>
+            <span className={letterClass}>I</span>
             <span className={letterClass}>'m</span>
             <br />
 

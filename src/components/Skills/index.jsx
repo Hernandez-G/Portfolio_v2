@@ -15,15 +15,16 @@ const Skills = () => {
     <>
       <div className="container skills-page">
         <div className="text-zone">
-          <h1>
+          <h1 className='skills-title'>
             <AnimatedLetters
+              
               letterClass={letterClass}
               strArray={['M', 'y', '', 's', 'k', 'i', 'l', 'l','s']}
               idx={15}
             />
           </h1>
-          <p>I love to keep a variety of tools in my tech stack. I also make sure to be pro at using one tool before moving on to the next. I keep myself up to date with the latest technologies around.</p>
-          <p>Technologies and languages that I use to make my product everyday</p>
+          <p className="skills-desc">I love to keep a variety of tools in my tech stack. I also make sure to be pro at using one tool before moving on to the next. I keep myself up to date with the latest technologies around.</p>
+          <p className="skills-desc">Technologies and languages that I use to make my product everyday</p>
           <div className='my-skills'>
             <a className='skill-link' href="https://www.w3schools.com/html/default.asp" rel="noopener noreferrer" target="_blank">
               <img alt="" src="https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/html.svg" />
@@ -80,9 +81,9 @@ const Skills = () => {
           </div>
         </div>
 
-        <div className="about-me-avatar">
+        {/* <div className="about-me-avatar">
           
-        </div>
+        </div> */}
       </div>
       {/* <Loader type="ball-pulse-sync" /> */}
     </>

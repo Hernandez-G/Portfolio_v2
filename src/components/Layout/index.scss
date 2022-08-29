@@ -44,14 +44,14 @@
 .container.skills-page {
   
     h1 {
-      font-size: 53px;
+      font-size: 4vw;
       font-family: 'Coolvetica';
       color: #FF2E63;
       font-weight: 400;
       margin-top: 0;
       position: relative;
-      margin-bottom: 40px;
-      left: -10px;
+      margin-bottom: 10rem;
+      left: 10rem;
 
       &:before {
         content: '<h1>';
@@ -80,7 +80,7 @@
     }
 
     p {
-      font-size: 13px;
+      font-size: 1vw;
       color: #fff;
       font-family: sans-serif;
       font-weight: 300;

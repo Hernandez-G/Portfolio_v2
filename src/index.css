@@ -1,4 +1,5 @@
 html {
+  display: flex;
   font-size: 62.5%;
 }
 

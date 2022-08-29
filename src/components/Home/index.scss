@@ -1,11 +1,16 @@
 .home-page {
   .text-zone {
-    position: absolute;
-    left: 10%;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 40%;
-    max-height: 90%;
+    display: inline-block;
+    /* grid-template-rows: 10rem 10rem; */
+    /* top: 50%; */
+    /* grid-template-rows: 30vw; */
+    /* transform: translateY(-50%); */
+    width: 20vw;
+    /* max-height: 90%; */
+    // display: block ruby;
+    // position: left;
+    margin-left: 5rem;
+    padding: 10vw;
   }
 
   h1 {
@@ -17,13 +22,11 @@
     font-weight: 400;
 
     &:before {
-      content: '<h1>';
-      font-family: 'La Belle Aurore', cursive;
+      content: "<h1>";
+      font-family: "La Belle Aurore", cursive;
       color: #FF2E63;
       font-size: 18px;
-      position: absolute;
-      margin-top: -40px;
-      left: -15px;
+      display: flex;
       opacity: 0.6;
     }
 
@@ -51,13 +54,18 @@
 
   h2 {
     color: #8d8d8d;
-    margin-top: 20px;
-    font-weight: 400;
-    font-size: 11px;
+    margin-top: 37px;
+    font-weight: bold;
+    font-size: 12px;
     font-family: sans-serif;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     animation: fadeIn 1s 1.8s backwards;
   }
+
+  h2.description {
+    font-size: 2rem;
+}
+  
 
   .flat-button {
     color: #FF2E63;

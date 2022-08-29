@@ -1,8 +1,11 @@
 .my-skills {
+  gap: 9px;
   display: grid;
+  grid-template-rows: 5rem 5rem 5rem 5rem;
+  grid-template-columns: 16rem 16rem 16rem;
+  padding: 0 9px;
+  box-sizing: border-box;
   justify-content: center;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  row-gap: 0.625rem;
 }
 
 .my-skills p {
@@ -22,11 +25,23 @@ a.skill-link {
   align-items: center;
   display: inline-flex;
   text-decoration: none;
-  /* justify-content: space-around; */
-  /* display: flex; */
-  /* flex-flow: column; */
+
 }
 
 a.skill-link p {
   margin-left: 5px;
+}
+.skills-desc{
+  display: flex;
+  /* position: absolute; */
+  /* left: 30%; */
+  /* top: 50%; */
+  transform: translateY(-50%);
+  /* width: 100%; */
+  // width: 50%;
+  margin-left: 9rem;
+}
+
+.container.skills-page h1 {
+  font-size: 55px;
 }

@@ -1,12 +1,13 @@
 .about-me-avatar {
-  width: 50%;
-  height: 100%;
-  top: 0;
-  position: fixed;
-  right: 0;
-  display: flex;
-  align-items: center;
-  margin: 0;
+  z-index: 0;
+    width: 400px;
+    height: 609px;
+    position: absolute;
+    top: 0;
+    right: 25%;
+    bottom: 0;
+    left: auto;
+    margin: auto;
 }
 
 .about-me-avatar img {
@@ -33,3 +34,4 @@
     color: #333;
   }
 }
+
